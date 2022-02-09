@@ -93,13 +93,20 @@ header {
 .a-header-inicio, .a-header-el-taller, .a-header-servicios, .a-header-promociones, .a-header-contacto {
     text-decoration: none;
     color: rgb(255, 255, 255);
-    text-shadow: 1.5px 1.5px rgb(228, 188, 13);
+    /* text-shadow: 1.5px 1.5px rgb(228, 188, 13); */
+    text-shadow: 1.5px 1.5px black;
+    text-decoration: underline;
 }
 
 .a-header {
     text-decoration: none;
     color: white;
     text-shadow: 1.5px 1.5px black;
+}
+
+.lista-horizontal:hover {
+    transform: scale(1.2);
+    transition: all 1s ease;
 }
 
 /* Fin del header de todos los HTML */
