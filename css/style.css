@@ -746,8 +746,9 @@ h5 {
 
     .a-header-inicio, .a-header-el-taller, .a-header-servicios, .a-header-promociones, .a-header-contacto {
         text-decoration: none;
-        color: rgb(221, 240, 48);
-        text-shadow: 0.3rem 0.3rem rgb(228, 188, 13);
+        color: white;
+        text-shadow: 0.3rem 0.3rem black;
+        text-decoration: underline;
     }
     
     .a-header {
@@ -1137,8 +1138,9 @@ h5 {
     .a-header-inicio, .a-header-el-taller, .a-header-servicios, .a-header-promociones, .a-header-contacto {
         text-decoration: none;
         color: rgb(255, 255, 255);
-        text-shadow: 0.2rem 0.2rem rgb(250, 205, 4);
+        text-shadow: 0.2rem 0.2rem black;
         font-size: 3.4rem;
+        text-decoration: underline;
     } 
     
     .a-header {
