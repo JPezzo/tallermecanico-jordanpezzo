@@ -70,11 +70,6 @@ header{
     grid-area: header;
 }
 
-nav.navbar.navbar-expand-lg.navbar-light.bg-light.background-navbar div.container-fluid {
-    display: flex;
-    justify-content: space-around;
-}
-
 .navbar {
     width: 100%;
 }
@@ -86,8 +81,8 @@ nav.navbar.navbar-expand-lg.navbar-light.bg-light.background-navbar div.containe
 .lista-horizontal {
     list-style: none;
     font-size: 23px;
-    padding-right: 60px;
-    padding-left: 60px;
+    padding-right: 40px;
+    padding-left: 40px;
 }
 
 div.collapse.navbar-collapse#navbarSupportedContent ul.navbar-nav.me-auto.mb-2.mb-lg-0 li.nav-item.lista-horizontal a.nav-link.a-header-inicio, .a-header-el-taller, .a-header-servicios, .a-header-promociones, .a-header-contacto {
@@ -104,6 +99,10 @@ div.collapse.navbar-collapse#navbarSupportedContent ul.navbar-nav.me-auto.mb-2.m
 .lista-horizontal:hover {
     transform: scale(1.08);
     transition: all 1s ease;
+}
+
+.logo-header {
+    padding-left: 30px;
 }
 
 /* Fin del header de todos los HTML */
