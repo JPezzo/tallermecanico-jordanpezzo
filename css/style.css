@@ -61,13 +61,18 @@ p, li, h2, h3, h4, a {
 
 /* Inicio del header de todos los HTML */
 
-header {
+header{
     display: flex;
     justify-content: space-around;
     position: sticky;
     top: -0.1px;
     z-index: 2;
     grid-area: header;
+}
+
+nav.navbar.navbar-expand-lg.navbar-light.bg-light.background-navbar div.container-fluid {
+    display: flex;
+    justify-content: space-around;
 }
 
 .navbar {
@@ -81,16 +86,17 @@ header {
 .lista-horizontal {
     list-style: none;
     font-size: 23px;
-    padding: 40px;
+    padding-right: 60px;
+    padding-left: 60px;
 }
 
-.a-header-inicio, .a-header-el-taller, .a-header-servicios, .a-header-promociones, .a-header-contacto {
+div.collapse.navbar-collapse#navbarSupportedContent ul.navbar-nav.me-auto.mb-2.mb-lg-0 li.nav-item.lista-horizontal a.nav-link.a-header-inicio, .a-header-el-taller, .a-header-servicios, .a-header-promociones, .a-header-contacto {
     text-shadow: 1.5px 1.5px black;
     text-decoration: underline;
     color: white;
 }
 
-.a-header {
+div.collapse.navbar-collapse#navbarSupportedContent ul.navbar-nav.me-auto.mb-2.mb-lg-0 li.nav-item.lista-horizontal a.nav-link.a-header {
     color: white;
     text-shadow: 1.5px 1.5px black;
 }
