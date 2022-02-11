@@ -67,7 +67,7 @@ header {
     background: url(../archivos-multimedia/header.jpg);
     position: sticky;
     top: -0.1px;
-    width: 100%;
+    /* width: 100%; */
     z-index: 2;
     grid-area: header;
 }
@@ -117,7 +117,7 @@ header {
     width: 100%;
 }
 
-.imagenes-carrousel {
+.section-1-index > img {
     width: 99.99%;
 }
 
@@ -127,7 +127,7 @@ header {
     background-color: hsla(199, 93%, 71%, 80%);
     z-index: 1;
     position: absolute;
-    top: 620px;
+    top: 520px;
     font-size: 50px;
     color: white;
     text-shadow: 1.5px 1.5px black;
@@ -139,7 +139,7 @@ header {
     background-color: hsla(199, 93%, 71%, 80%);
     z-index: 1;
     position: absolute;
-    top: 720px;
+    top: 620px;
     font-size: 30px;
     color: white;
     text-shadow: 1.5px 1.5px black;
