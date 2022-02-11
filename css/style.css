@@ -64,24 +64,18 @@ p, li, h2, h3, h4, a {
 header {
     display: flex;
     justify-content: space-around;
-    background: url(../archivos-multimedia/header.jpg);
     position: sticky;
     top: -0.1px;
-    /* width: 100%; */
     z-index: 2;
     grid-area: header;
 }
 
-.nav {
-    display: flex;
+.navbar {
+    width: 100%;
 }
 
-.menu-container {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
-    justify-content: flex-end;
-    align-items: center;
+.background-navbar {
+    background: url(../archivos-multimedia/header.jpg);
 }
 
 .lista-horizontal {
@@ -91,20 +85,18 @@ header {
 }
 
 .a-header-inicio, .a-header-el-taller, .a-header-servicios, .a-header-promociones, .a-header-contacto {
-    text-decoration: none;
-    color: rgb(255, 255, 255);
     text-shadow: 1.5px 1.5px black;
     text-decoration: underline;
+    color: white;
 }
 
 .a-header {
-    text-decoration: none;
     color: white;
     text-shadow: 1.5px 1.5px black;
 }
 
 .lista-horizontal:hover {
-    transform: scale(1.2);
+    transform: scale(1.08);
     transition: all 1s ease;
 }
 
@@ -717,33 +709,6 @@ h5 {
 
     /* Inicio header mobile */
 
-    header {
-        display: grid;
-        grid-template-rows: 2 1fr;
-        grid-template-areas: 
-        "logo"
-        "menu";
-        justify-items: center;
-        background: url(../archivos-multimedia/header.jpg);
-        background-repeat: no-repeat;
-        background-size: cover;
-    }
-    
-    .logo-header {
-        grid-area: logo;
-        width: 60rem;
-    }
-
-    .nav {
-        grid-area: menu;
-    }
-
-    .lista-horizontal {
-        list-style: none;
-        font-size: 3.4rem;
-        padding: 40px;
-    }
-
     .a-header-inicio, .a-header-el-taller, .a-header-servicios, .a-header-promociones, .a-header-contacto {
         text-decoration: none;
         color: white;
@@ -763,14 +728,14 @@ h5 {
     /* Inicio section 1 mobile INDEX */
 
     .recomendaciones {
-        top: 53rem;
-        font-size: 4rem;
+        top: 20rem;
+        font-size: 2.2rem;
         width: max-content;
     }
 
     .a-section-1-servicios {
-        top: 60rem;
-        font-size: 2.5rem;
+        top: 24rem;
+        font-size: 2rem;
     }
 
     .section-1-index > img {
