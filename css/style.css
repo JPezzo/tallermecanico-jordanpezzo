@@ -80,7 +80,7 @@ header{
 
 .lista-horizontal {
     list-style: none;
-    font-size: 23px;
+    font-size: 20px;
     padding-right: 40px;
     padding-left: 40px;
 }
@@ -120,12 +120,19 @@ div.collapse.navbar-collapse#navbarSupportedContent ul.navbar-nav.me-auto.mb-2.m
     text-shadow: 1.5px 1.5px black;
 }
 
-.lista-horizontal:hover {
+/* .lista-horizontal:hover {
     transform: scale(1.05);
     transition: all 1s ease;
+} */
+
+div.collapse.navbar-collapse#navbarSupportedContent ul.navbar-nav.me-auto.mb-2.mb-lg-0 li.nav-item.lista-horizontal a.nav-link.a-header:hover {
+    color: rgba(22, 104, 199, 0.8);
+    transform: scale(1.05);
+    transition: all 0.5s ease;
 }
 
 .logo-header {
+    width: 90%;
     padding-left: 30px;
 }
 
@@ -147,34 +154,37 @@ div.collapse.navbar-collapse#navbarSupportedContent ul.navbar-nav.me-auto.mb-2.m
     width: 99.99%;
 }
 
-.recomendaciones {
-    padding: 5px;
-    margin: 8px;
+h5.recomendaciones {
+    padding-top: 5px;
+    padding-bottom: 5px;
     background-color: hsla(199, 93%, 71%, 80%);
-    z-index: 1;
-    position: absolute;
-    top: 520px;
-    font-size: 50px;
+    font-size: 60px;
     color: white;
     text-shadow: 1.5px 1.5px black;
 }
 
-.a-section-1-servicios {
-    padding: 5px;
-    margin: 8px;
+button.button-section1-servicios {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-top: 5px;
+    margin-bottom: 5px;
     background-color: hsla(199, 93%, 71%, 80%);
-    z-index: 1;
-    position: absolute;
-    top: 620px;
-    font-size: 30px;
-    color: white;
     text-shadow: 1.5px 1.5px black;
-    text-decoration: none;
     border: 5px outset cadetblue;
     box-shadow: 1.5px 1.5px rgb(0, 0, 0);
 }
 
-.a-section-1-servicios:hover {
+a.a-section-1-servicios {
+    text-decoration: none;
+    font-size: 30px;
+    color: white;
+}
+
+a.a-section-1-servicios:hover {
+    color: rgba(22, 104, 199, 0.8);
+}
+
+button.button-section1-servicios:hover {
     animation: moveButton 3s;
 }
 
@@ -183,31 +193,31 @@ div.collapse.navbar-collapse#navbarSupportedContent ul.navbar-nav.me-auto.mb-2.m
     transform: translateY(0);
   }
   10%{
-    transform: translateY(-3px);
+    transform: translateY(-2px);
   }
   20%{
-    transform: translateY(3px);
+    transform: translateY(2px);
   }
   30%{
-    transform: translateY(-3px);
+    transform: translateY(-2px);
   }
   40%{
-    transform: translateY(3px);
+    transform: translateY(2px);
   }
   50%{
-    transform: translateY(-3px);
+    transform: translateY(-2px);
   }
   60%{
-    transform: translateY(3px);
+    transform: translateY(2px);
   }
   70%{
-    transform: translateY(-3px);
+    transform: translateY(-2px);
   }
   80%{
-    transform: translateY(2.2px);
+    transform: translateY(1.2px);
   }
   90%{
-    transform: translateY(-2.2px);
+    transform: translateY(-1.2px);
   }
   100%{
     transform: translateY(0);
