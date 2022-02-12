@@ -66,12 +66,13 @@ header{
     justify-content: space-around;
     position: sticky;
     top: -0.1px;
-    z-index: 2;
+    z-index: 3;
     grid-area: header;
 }
 
 .navbar {
     width: 100%;
+    z-index: 2;
 }
 
 .background-navbar {
@@ -120,11 +121,6 @@ div.collapse.navbar-collapse#navbarSupportedContent ul.navbar-nav.me-auto.mb-2.m
     text-shadow: 1.5px 1.5px black;
 }
 
-/* .lista-horizontal:hover {
-    transform: scale(1.05);
-    transition: all 1s ease;
-} */
-
 div.collapse.navbar-collapse#navbarSupportedContent ul.navbar-nav.me-auto.mb-2.mb-lg-0 li.nav-item.lista-horizontal a.nav-link.a-header:hover {
     color: rgba(22, 104, 199, 0.8);
     transform: scale(1.05);
@@ -132,7 +128,7 @@ div.collapse.navbar-collapse#navbarSupportedContent ul.navbar-nav.me-auto.mb-2.m
 }
 
 .logo-header {
-    width: 90%;
+    width: 100%;
     padding-left: 30px;
 }
 
