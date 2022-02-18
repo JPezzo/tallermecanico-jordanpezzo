@@ -1,5 +1,7 @@
 /* Sección 1 del INDEX */
 
+@import "../base/variables";
+
 .section-1-index {
     grid-area: section-1;
     width: 100%;
@@ -15,7 +17,7 @@ h5.recomendaciones {
     background-color: hsla(199, 93%, 71%, 80%);
     font-size: 60px;
     color: white;
-    text-shadow: 1.5px 1.5px black;
+    text-shadow: $text-shadow-general;
 }
 
 button.button-section1-servicios {
@@ -24,7 +26,7 @@ button.button-section1-servicios {
     margin-top: 5px;
     margin-bottom: 5px;
     background-color: hsla(199, 93%, 71%, 80%);
-    text-shadow: 1.5px 1.5px black;
+    text-shadow: $text-shadow-general;
     border: 5px outset cadetblue;
     box-shadow: 1.5px 1.5px rgb(0, 0, 0);
 }

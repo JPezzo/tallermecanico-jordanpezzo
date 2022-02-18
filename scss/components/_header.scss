@@ -1,5 +1,7 @@
 /* Header */
 
+@import "../base/variables";
+
 header{
     display: flex;
     justify-content: space-around;
@@ -20,44 +22,44 @@ header{
 
 .lista-horizontal {
     list-style: none;
-    font-size: 20px;
+    font-size: $font-size-header;
     padding-right: 40px;
     padding-left: 40px;
 }
 
 div.collapse.navbar-collapse#navbarSupportedContent ul.navbar-nav.me-auto.mb-2.mb-lg-0 li.nav-item.lista-horizontal a.nav-link.a-header-inicio {
-    text-shadow: 1.5px 1.5px black;
+    text-shadow: $text-shadow-general;
     text-decoration: underline;
     color: white;
 }
 
 div.collapse.navbar-collapse#navbarSupportedContent ul.navbar-nav.me-auto.mb-2.mb-lg-0 li.nav-item.lista-horizontal a.nav-link.a-header-el-taller {
-    text-shadow: 1.5px 1.5px black;
+    text-shadow: $text-shadow-general;
     text-decoration: underline;
     color: white;
 }
 
 div.collapse.navbar-collapse#navbarSupportedContent ul.navbar-nav.me-auto.mb-2.mb-lg-0 li.nav-item.lista-horizontal a.nav-link.a-header-servicios {
-    text-shadow: 1.5px 1.5px black;
+    text-shadow: $text-shadow-general;
     text-decoration: underline;
     color: white;
 }
 
 div.collapse.navbar-collapse#navbarSupportedContent ul.navbar-nav.me-auto.mb-2.mb-lg-0 li.nav-item.lista-horizontal a.nav-link.a-header-promociones {
-    text-shadow: 1.5px 1.5px black;
+    text-shadow: $text-shadow-general;
     text-decoration: underline;
     color: white;
 }
 
 div.collapse.navbar-collapse#navbarSupportedContent ul.navbar-nav.me-auto.mb-2.mb-lg-0 li.nav-item.lista-horizontal a.nav-link.a-header-contacto {
-    text-shadow: 1.5px 1.5px black;
+    text-shadow: $text-shadow-general;
     text-decoration: underline;
     color: white;
 }
 
 div.collapse.navbar-collapse#navbarSupportedContent ul.navbar-nav.me-auto.mb-2.mb-lg-0 li.nav-item.lista-horizontal a.nav-link.a-header {
     color: white;
-    text-shadow: 1.5px 1.5px black;
+    text-shadow: $text-shadow-general;
 }
 
 div.collapse.navbar-collapse#navbarSupportedContent ul.navbar-nav.me-auto.mb-2.mb-lg-0 li.nav-item.lista-horizontal a.nav-link.a-header:hover {

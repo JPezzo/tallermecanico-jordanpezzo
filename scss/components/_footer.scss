@@ -1,5 +1,7 @@
 /* Footer */
 
+@import "../base/variables";
+
 footer {
     grid-area: footer;
     background-color: gray;
@@ -79,7 +81,7 @@ footer {
     font-size: 20px;
     text-decoration: underline;
     color: white;
-    text-shadow: 1.5px 1.5px black;
+    text-shadow: $text-shadow-general;
     background-color: gray;
 }
 
@@ -87,7 +89,7 @@ footer {
     padding: 5px;
     font-size: 18px;
     color: white;
-    text-shadow: 1.5px 1.5px black;
+    text-shadow: $text-shadow-general;
     background-color: gray;
 }
 
@@ -96,6 +98,7 @@ footer {
     position: fixed;
     right: 5px;
     bottom: 5px;
+    z-index: 3;
 }
 
 .link-instagram {
