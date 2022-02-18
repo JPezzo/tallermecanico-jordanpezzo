@@ -1,0 +1,168 @@
+/* Sección 1 de SERVICIOS */
+
+.section-1-servicios {
+    grid-area: section-1-servicios;
+    padding-bottom: 50px;
+
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(10, 0.5fr);
+    grid-template-areas: 
+    "h2 h2 h2"
+    "mecanica-general frenos tren"
+    "iconmg iconfre icontre"
+    "servmg servfre servtre"
+    "encendido inyeccion electronica"
+    "iconen iconiny iconele"
+    "serven serviny servele"
+    "diagnostico service motor"
+    "icondia iconser iconmot"
+    "servdia servser servmot";
+    grid-row-gap: 30px;
+    align-items: center;
+    justify-items: center;
+}
+
+.h2-servicios {
+    padding: 5px;
+    font-size: 45px;
+    text-decoration: underline;
+    color: white;
+    text-align: center;
+    text-shadow: 1.5px 1.5px black;
+    background-color: hsla(197, 78%, 46%, 100%);
+    grid-area: h2;
+}
+
+.h3-section-servicios {
+    padding: 5px;
+    font-size: 25px;
+    text-decoration: underline;
+    color: white;
+    text-shadow: 1.5px 1.5px black;
+    background-color: hsla(197, 78%, 46%, 100%);
+}
+
+.mecanica-general {
+    grid-area: mecanica-general;
+}
+
+.iconmg {
+    grid-area: iconmg;
+}
+
+.servmg {
+    grid-area: servmg;
+}
+
+.frenos {
+    grid-area: frenos;
+}
+
+.iconfre {
+    grid-area: iconfre;
+}
+
+.servfre {
+    grid-area: servfre;
+}
+
+.tren {
+    grid-area: tren;
+}
+
+.icontre {
+    grid-area: icontre;
+}
+
+.servtre {
+    grid-area: servtre;
+}
+
+.encendido {
+    grid-area: encendido;
+}
+
+.iconen {
+    grid-area: iconen;
+}
+
+.serven {
+    grid-area: serven;
+}
+
+.inyeccion {
+    grid-area: inyeccion;
+}
+
+.iconiny {
+    grid-area: iconiny;
+}
+
+.serviny {
+    grid-area: serviny;
+}
+
+.electronica {
+    grid-area: electronica;
+}
+
+.iconele {
+    grid-area: iconele;
+}
+
+.servele {
+    grid-area: servele;
+}
+
+.diagnostico {
+    grid-area: diagnostico;
+}
+
+.icondia {
+    grid-area: icondia;
+}
+
+.servdia {
+    grid-area: servdia;
+}
+
+.service {
+    grid-area: service;
+}
+
+.iconser {
+    grid-area: iconser;
+}
+
+.servser {
+    grid-area: servser;
+}
+
+.motor {
+    grid-area: motor;
+}
+
+.iconmot {
+    grid-area: iconmot;
+}
+
+.servmot {
+    grid-area: servmot;
+}
+
+
+.ul-section-servicios {
+    padding: 5px;
+    font-size: 23px;
+    color: white;
+    text-shadow: 1.5px 1.5px black;
+    background-color: hsla(197, 78%, 46%, 100%);
+    list-style: none;
+    text-align: center;
+}
+
+.iconos-servicios {
+    width: 80px;
+    background-color: hsla(197, 78%, 46%, 100%);
+}
