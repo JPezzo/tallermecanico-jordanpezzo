@@ -1,0 +1,121 @@
+/* Footer */
+
+footer {
+    grid-area: footer;
+    background-color: gray;
+
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(7, 40px);
+    grid-template-areas: 
+    "datos ubicacion nuestros"
+    "celular mapa lunes"
+    "mail mapa siete"
+    ". mapa ."
+    "fbig mapa sabado"
+    ". mapa siete2"
+    "copyright . jordan";
+    align-items: center;
+    justify-items: center;
+}
+
+.datos {
+    grid-area: datos;
+}
+
+.celular {
+    grid-area: celular;
+}
+
+.mail {
+    grid-area: mail;
+}
+
+.fbig {
+    grid-area: fbig;
+    justify-self: space-around;
+}
+
+.ubicacion {
+    grid-area: ubicacion;
+}
+
+.mapa {
+    grid-area: mapa;
+    width: 100%;
+    height: 100%;
+}
+
+.nuestros {
+    grid-area: nuestros;
+}
+
+.siete {
+    grid-area: siete;
+}
+
+.lunes {
+    grid-area: lunes;
+}
+
+.sabado {
+    grid-area: sabado;
+}
+
+.siete2 {
+    grid-area: siete2;
+}
+
+.copyright {
+    grid-area: copyright;
+}
+
+.jordan {
+    grid-area: jordan;
+}
+
+.h4-footer {
+    padding: 5px;
+    font-size: 20px;
+    text-decoration: underline;
+    color: white;
+    text-shadow: 1.5px 1.5px black;
+    background-color: gray;
+}
+
+.p-footer {
+    padding: 5px;
+    font-size: 18px;
+    color: white;
+    text-shadow: 1.5px 1.5px black;
+    background-color: gray;
+}
+
+.logo-wpp {
+    width: 80px;
+    position: fixed;
+    right: 5px;
+    bottom: 5px;
+}
+
+.link-instagram {
+    text-decoration: none;
+}
+
+.logo-instagram {
+    width: 70px;
+    background-color: gray;
+}
+
+.logo-facebook {
+    width: 70px;
+    background-color: gray;
+}
+
+h5 {
+    color: white;
+    text-shadow: 1px 1px black;
+    text-align: center;
+    font-size: 15px;
+    background-color: gray;
+}
