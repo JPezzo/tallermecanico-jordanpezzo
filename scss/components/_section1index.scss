@@ -86,9 +86,21 @@ button.button-section1-servicios:hover {
   h5.recomendaciones {
     background-color: hsla(199, 93%, 71%, 80%);
     font-size: 2.3rem;
+  }
+
+  a.a-section-1-servicios {
+    font-size: 1.8rem;
+  }
 }
 
-a.a-section-1-servicios {
+@media screen and (max-width: 480px) {
+
+  h5.recomendaciones {
+    background-color: hsla(199, 93%, 71%, 80%);
+    font-size: 2.3rem;
+  }
+
+  a.a-section-1-servicios {
     font-size: 1.8rem;
-}
+  }
 }

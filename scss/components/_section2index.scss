@@ -125,3 +125,51 @@
         display: none;
     }
 }
+
+@media screen and (max-width: 480px) {
+    .section-2-index {
+        background: url(../archivos-multimedia/taller-mecanico-frente.jpg);
+        background-repeat: no-repeat;
+        background-size: auto;
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 2.8rem repeat(7, 7rem);
+        grid-template-areas: 
+        "h2-section2-index"
+        "h3-1-section2-index"
+        "p1-section2-index"
+        "h3-2-section2-index"
+        "p2-section2-index"
+        "h3-3-section2-index"
+        "p3-section2-index"
+        "img-section2-index";
+
+        align-items: center;
+        justify-items: center;
+    }
+
+    .h2-section-2 {
+        font-size: 2.2rem;
+        padding: 0.3rem;
+        align-self: start;
+        width: 100%;
+    }
+
+    .h3-section-2 {
+        text-align: center;
+        font-size: 1.8rem;
+        text-shadow: 0.1rem 0.1rem black;
+        background-color: hsla(197, 78%, 46%, 0%);
+    }
+
+    .p-section-2 {
+        text-align: center;
+        font-size: 1.6rem;
+        text-shadow: 0.1rem 0.1rem black;
+        background-color: hsla(197, 78%, 46%, 0%);
+    }
+
+    .img-section2-index {
+        display: none;
+    }
+  }

@@ -86,3 +86,13 @@ div.collapse.navbar-collapse#navbarSupportedContent ul.navbar-nav.me-auto.mb-2.m
         flex-wrap: nowrap;
     }
 }
+
+@media screen and (max-width: 480px) {
+
+    header nav.navbar.navbar-expand-lg.navbar-light.bg-light.background-navbar div.container-fluid {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        align-items: center;
+    }
+}
