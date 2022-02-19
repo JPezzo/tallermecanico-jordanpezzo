@@ -207,6 +207,16 @@ button.button-section1-servicios:hover {
     transform: translateY(0);
   }
 }
+@media screen and (min-width: 481px) and (max-width: 980px) {
+  h5.recomendaciones {
+    background-color: rgba(112, 206, 250, 0.8);
+    font-size: 2.3rem;
+  }
+
+  a.a-section-1-servicios {
+    font-size: 1.8rem;
+  }
+}
 /* Sección 2 del INDEX */
 .section-2-index {
   grid-area: section-2;
@@ -279,13 +289,34 @@ button.button-section1-servicios:hover {
   .section-2-index {
     background: url(../archivos-multimedia/taller-mecanico-frente.jpg);
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: auto;
     display: grid;
     grid-template-columns: 1fr;
-    grid-template-rows: repeat(8, 10rem);
+    grid-template-rows: repeat(8, 6rem);
     grid-template-areas: "h2-section2-index" "h3-1-section2-index" "p1-section2-index" "h3-2-section2-index" "p2-section2-index" "h3-3-section2-index" "p3-section2-index" "img-section2-index";
     align-items: center;
     justify-items: center;
+  }
+
+  .h2-section-2 {
+    font-size: 2.3rem;
+    padding: 0.3rem;
+    align-self: start;
+    width: 100%;
+  }
+
+  .h3-section-2 {
+    text-align: center;
+    font-size: 1.8rem;
+    text-shadow: 0.1rem 0.1rem black;
+    background-color: rgba(26, 157, 209, 0);
+  }
+
+  .p-section-2 {
+    text-align: center;
+    font-size: 1.6rem;
+    text-shadow: 0.1rem 0.1rem black;
+    background-color: rgba(26, 157, 209, 0);
   }
 
   .img-section2-index {
@@ -361,6 +392,62 @@ button.button-section1-servicios:hover {
   grid-area: img3-el-taller;
 }
 
+@media screen and (min-width: 481px) and (max-width: 980px) {
+  .section-1-eltaller {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 5rem repeat(3, 40rem);
+    grid-template-areas: "h2-el-taller" "p1-el-taller" "p2-el-taller" "p3-el-taller";
+    grid-row-gap: 4rem;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .h2-el-taller {
+    font-size: 2.3rem;
+    text-shadow: 0.1rem 0.1rem black;
+    grid-area: h2-el-taller;
+  }
+
+  .p-section-el-taller {
+    font-size: 1.8rem;
+    text-shadow: 0.1rem 0.1rem black;
+    text-align: center;
+  }
+
+  .p1-el-taller {
+    background: url(../archivos-multimedia/el-taller-1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    line-height: 4.5rem;
+  }
+
+  .p2-el-taller {
+    background: url(../archivos-multimedia/ubicacion-taller.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    line-height: 4.5rem;
+  }
+
+  .p3-el-taller {
+    background: url(../archivos-multimedia/cartel.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    line-height: 4.5rem;
+  }
+
+  .frente-taller {
+    display: none;
+  }
+
+  .mapa-taller {
+    display: none;
+  }
+
+  .diagonal-taller {
+    display: none;
+  }
+}
 /* Sección 1 de SERVICIOS */
 .section-1-servicios {
   grid-area: section-1-servicios;
@@ -517,6 +604,37 @@ button.button-section1-servicios:hover {
   background-color: #1a9dd1;
 }
 
+@media screen and (min-width: 481px) and (max-width: 980px) {
+  .section-1-servicios {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(28, 0.5fr);
+    grid-template-areas: "h2" "mecanica-general" "iconmg" "servmg" "frenos" "iconfre" "servfre" "tren" "icontre" "servtre" "encendido" "iconen" "serven" "inyeccion" "iconiny" "serviny" "electronica" "iconele" "servele" "diagnostico" "icondia" "servdia" "service" "iconser" "servser" "motor" "iconmot" "servmot";
+    grid-row-gap: 1rem;
+    align-items: center;
+    justify-items: center;
+  }
+
+  .h2-servicios {
+    font-size: 2.3rem;
+    text-shadow: 0.1rem 0.1rem black;
+    background-color: #1a9dd1;
+  }
+
+  .h3-section-servicios {
+    font-size: 1.8rem;
+    text-shadow: 0.1rem 0.1rem black;
+    background-color: #1a9dd1;
+  }
+
+  .iconos-servicios {
+    width: 6rem;
+  }
+
+  .ul-section-servicios {
+    font-size: 1.6rem;
+  }
+}
 /* Sección 1 de Promociones */
 .section-1-promociones {
   grid-area: section-1-promociones;
@@ -577,6 +695,67 @@ button.button-section1-servicios:hover {
   grid-area: mercado-pago;
 }
 
+@media screen and (min-width: 481px) and (max-width: 980px) {
+  .section-1-promociones {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 6rem repeat(3, 0.5fr);
+    grid-template-areas: "h2-promociones" "p1-promo" "p2-promo" "p3-promo";
+    grid-row-gap: 1rem;
+    align-items: center;
+  }
+
+  .h2-promociones {
+    font-size: 2.3rem;
+    text-shadow: 0.1rem 0.1rem black;
+    grid-area: h2-promociones;
+  }
+
+  .p-section-promociones {
+    font-size: 1.6rem;
+    text-shadow: 0.1rem 0.1rem black;
+    text-align: center;
+  }
+
+  .p1-promo {
+    background: url(../archivos-multimedia/tarjetas.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    line-height: 4rem;
+    grid-area: p1-promo;
+    padding: 5rem 5rem;
+  }
+
+  .p2-promo {
+    background: url(../archivos-multimedia/billetes.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    line-height: 4rem;
+    grid-area: p2-promo;
+    padding: 5rem 5rem;
+  }
+
+  .p3-promo {
+    background: url(../archivos-multimedia/mercado-pago.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    line-height: 4rem;
+    grid-area: p3-promo;
+    padding: 5rem 5rem;
+  }
+
+  .tarjetas-servicios {
+    display: none;
+  }
+
+  .billetes {
+    display: none;
+  }
+
+  .mercado-pago {
+    display: none;
+  }
+}
 /* Footer */
 footer {
   grid-area: footer;
@@ -689,6 +868,52 @@ h5 {
   text-align: center;
   font-size: 15px;
   background-color: gray;
+}
+
+@media screen and (min-width: 481px) and (max-width: 980px) {
+  footer {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(16, 4.3rem);
+    grid-template-areas: "datos" "celular" "mail" "fbig" "ubicacion" "mapa" "mapa" "mapa" "mapa" "nuestros" "lunes" "siete" "sabado" "siete2" "copyright" "jordan";
+    align-items: center;
+    justify-items: center;
+  }
+
+  .mapa {
+    width: 100%;
+    height: 100%;
+  }
+
+  .h4-footer {
+    font-size: 1.5rem;
+    text-shadow: 0.1rem 0.1rem black;
+  }
+
+  .p-footer {
+    font-size: 1.5rem;
+    text-shadow: 0.1rem 0.1rem black;
+  }
+
+  .logo-wpp {
+    width: 12%;
+    position: fixed;
+    right: 0.5rem;
+    bottom: 0.5rem;
+  }
+
+  .logo-instagram {
+    width: 3rem;
+  }
+
+  .logo-facebook {
+    width: 3rem;
+  }
+
+  h5 {
+    text-shadow: 0.1rem 0.1rem black;
+    font-size: 1.2rem;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */
