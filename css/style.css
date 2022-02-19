@@ -121,6 +121,14 @@ div.collapse.navbar-collapse#navbarSupportedContent ul.navbar-nav.me-auto.mb-2.m
   transition: all 1s ease;
 }
 
+@media screen and (min-width: 481px) and (max-width: 980px) {
+  header nav.navbar.navbar-expand-lg.navbar-light.bg-light.background-navbar div.container-fluid {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+  }
+}
 /* Sección 1 del INDEX */
 .section-1-index {
   grid-area: section-1;

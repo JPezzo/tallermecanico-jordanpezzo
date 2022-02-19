@@ -77,3 +77,14 @@ div.collapse.navbar-collapse#navbarSupportedContent ul.navbar-nav.me-auto.mb-2.m
     transform: scale(1.05);
     transition: all 1s ease;
 }
+
+@media screen and (min-width: 481px) and (max-width: 980px) {
+
+    header nav.navbar.navbar-expand-lg.navbar-light.bg-light.background-navbar div.container-fluid {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        justify-content: space-around;
+    }
+
+}
